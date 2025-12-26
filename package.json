@@ -1,0 +1,31 @@
+{
+  "name": "lux",
+  "version": "1.0.0",
+  "description": "A simple web interface to control tapo smart lights. ",
+  "keywords": [
+    "web-ui",
+    "api",
+    "lights",
+    "smart-lights"
+  ],
+  "homepage": "https://github.com/proprionic/Lux#readme",
+  "bugs": {
+    "url": "https://github.com/proprionic/Lux/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/proprionic/Lux.git"
+  },
+  "license": "MIT",
+  "author": "nvc",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "test": "test"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "readline": "^1.3.0",
+    "tp-link-tapo-connect": "^2.0.8"
+  }
+}
